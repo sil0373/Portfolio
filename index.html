@@ -15,7 +15,8 @@
 
   <nav>
     <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
+    <a href="#projects">Main Map Projects</a>
+    <a href="#otherProjects">Other Map Projects</a>
     <a href="#skills">Skills</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -31,46 +32,88 @@
     </section>
 
     <section id="projects">
-      <h2>Map Projects</h2>
+      <h2>Main Map Projects</h2>
+      <!-- <div class="project">
+        <h3>Project 1</h3>
+        <div class="grid">
+          <p id="word">A tourism map in North Dakota, containing natural features, advertisement of tourism spots, and location </p>
+            <div class="image-container">
+             <img src="Project1.jpg" alt = "Project1" class = "hidden-img"/>
+            </div>
+        </div>
+      </div> -->
       <div class="project">
         <h3>Project 1</h3>
         <div class="grid">
-          <div class="image-container">
-             <img src="Project1.jpg" alt = "Project1" class = "hidden-img"/>
-             <!-- <div class="mask">+</div> -->
-          </div>
-          <p id="word">A tourism map in North Dakota, containing natural features, advertisement of tourism spots, and location </p>
-        </div>
-      </div>
-      <div class="project">
-        <h3>Project 2</h3>
-        <div class="grid">
+          <p id="word">A physical geography map of African continent, covering physical terrain, country boundaries and labels. Click the image to enable zooming in.</p>
            <div class="image-container" style="width: 50%;" onclick="toggle(this)">
              <img src="Project2.jpg" alt = "Project2" class = "large-img"/>
              <div class="mask">+</div>
           </div>
-          <p id="word">A physical geography map of African continent, covering physical terrain, country boundaries and labels. Click the image to enable zooming in.</p>
+        </div>
+      </div>
+      <!-- <div class="project">
+        <h3>Project 3</h3>
+          <div class="grid">
+            <p id="word">RCP4.5 stand for Representative Concentration Pathway 4.5, a predicted model for future scenario under 4.5 watts per meter squared radiative forcing level. I used choropleth map with sequential colors to indicate the index of expenditure under RCP4.5. Click the image to enable zooming in. </p>
+              <div class="image-container" style="width: 50%;" onclick="toggle(this)">
+                  <img src="Project3.jpg" alt = "Project3" class = "large-img"/>
+                 <div class="mask">+</div>
+              </div>
+          </div>
+      </div> -->
+      <div class="project">
+        <h3>Project 2</h3>
+        <div class="grid">
+          <p id="word">A flow map about Chinese megacities and migration, which allow viewers to compare migration value and directions between different megacities. Total population of each city is shown to allow comparison between the proportion of migrated people and native people. </p>
+            <div class="image-container">
+             <img src="Project6.jpg" alt = "Project1" class = "hidden-img"/>
+             <!-- <div class="mask">+</div> -->
+            </div>
         </div>
       </div>
       <div class="project">
         <h3>Project 3</h3>
           <div class="grid">
+            <div id="word">
+              <p>Two maps below are both about temperatures influences on tea area in different provinces of China. I experiment this theme with: </p>
+              <p>(1) Proportional symbol map + Choropleth map</p>
+              <p>(2) Bivariate map</p>
+              <p>Finding that the first one shows the number comparison between tea plantation area more obvious visually than the second one. The second one emphasizes more on relationship between temperature and tea plantation areas, but require viewer's time and thinking to interpret. So the first one is chosen to be the final outcome for this theme. </p>
+              <p>The theme is inspiried by learning plants in Biological Geography 338, which helps me to gain a background on tea plants first. I also apply the knowledge of linear regression calculation from Stat 301 to show the relationship between tea plants growth and temperature variation. </p>
+            </div>
+          
+              <div class="image-container">
+                  <img src = "Project4.jpg" alt = "Project4" class = "hidden-img"/>
+                  <!-- <div class="mask">+</div> -->
+              </div>
+              <div class="image-container" style="width: 50%;" onclick="toggle(this)">
+                <img src = "Project5.jpg" alt = "Project5" class = "large-img"/>
+                <div class="mask">+</div>
+              </div>
+         </div>
+      </div>
+  <h2>Other Map Projects</h2>
+    <section id="otherProjects">
+      <div class="project">
+        <h3>Project 1</h3>
+          <div class="grid">
+            <p id="word">RCP4.5 stand for Representative Concentration Pathway 4.5, a predicted model for future scenario under 4.5 watts per meter squared radiative forcing level. I used choropleth map with sequential colors to indicate the index of expenditure under RCP4.5. Click the image to enable zooming in. </p>
               <div class="image-container" style="width: 50%;" onclick="toggle(this)">
                   <img src="Project3.jpg" alt = "Project3" class = "large-img"/>
                  <div class="mask">+</div>
               </div>
-              <p id="word">RCP4.5 stand for Representative Concentration Pathway 4.5, a predicted model for future scenario under 4.5 watts per meter squared radiative forcing level. I used choropleth map with sequential colors to indicate the index of expenditure under RCP4.5. Click the image to enable zooming in. </p>
           </div>
       </div>
       <div class="project">
-        <h3>Project 4</h3>
-          <div class="grid">
-              <div class="image-container">
-                  <img src="Project4.jpg" alt = "Project3" class = "hidden-img"/>
-                  <!-- <div class="mask">+</div> -->
-              </div>
-              <p id="word">Inspiried by learning plants in Biological Geography 338, I use choropleth map with proportional symbols to show tea plants cultivation area in China. I also apply the knowledge of linear regression calculation from Stat 301 to show the relationship between tea plants growth and temperature variation. </p>
-         </div>
+        <h3>Project 2</h3>
+        <div class="grid">
+          <p id="word">A tourism map in North Dakota, containing natural features, advertisement of tourism spots, and location </p>
+            <div class="image-container">
+             <img src="Project1.jpg" alt = "Project1" class = "hidden-img"/>
+             <!-- <div class="mask">+</div> -->
+            </div>
+        </div>
       </div>
     </section>
 
@@ -93,7 +136,7 @@
 
   <footer>
     <div></div>
-    <p>© 2025 Your Name. All Rights Reserved.</p>
+    <p>© 2025 Zoey Zang. All Rights Reserved.</p>
   </footer>
 
 </body>
